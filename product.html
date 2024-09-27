@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahii Enterprise</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Rahii Enterprise</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="review.html">Reviews</a></li>
+                <li><a href="contacts.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Product Filters -->
+        <aside>
+            <h2>Filter Products</h2>
+            <form id="product-filters">
+                <div class="filtering">
+                    <h3>Category</h3>
+                    <label><input type="checkbox" name="category" value="electronics"> Cosmetics</label><br>
+                    <label><input type="checkbox" name="category" value="clothing">    Earings</label><br>
+                    <label><input type="checkbox" name="category" value="accessories"> Bracelets</label><br>
+                    <label><input type="checkbox" name="category" value="accessories"> Hairbands</label><br>
+                    <label><input type="checkbox" name="category" value="accessories"> Necklaces</label><br>
+                </div>
+                <div class="filtering">
+                    <h3>Price Range</h3>
+                    <label><input type="radio" name="price" value="low">    KSH.0 - KSH.50</label><br>
+                    <label><input type="radio" name="price" value="medium"> KSH.50 - KSH.100</label><br>
+                    <label><input type="radio" name="price" value="high">   KSH.100+</label><br>
+                </div>
+                <div class="filtering">
+                    <h3>Ratings</h3>
+                    <label><input type="radio" name="rating" value="4"> Above 3 Stars</label><br>
+                    <label><input type="radio" name="rating" value="3"> 3 Stars</label><br>
+                    <label><input type="radio" name="rating" value="3"> Below 3 Stars</label><br>
+                </div>
+                <button type="submit">Apply Filters</button>
+            </form>
+        </aside>
+
+        <!-- Product Grid -->
+        <section id="product-list">
+            <h2>Available Products</h2>
+            <div class="product-grid">
+                <!-- Example Product -->
+                <div class="product-item">
+                    <img src="images/Bracelets.jpg" alt="bracelets">
+                    <h3>Bracelets</h3>
+                    <P>description:<br>Pearl bracelets that come in different colors.</P>
+                    <p>KSH.50.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <div class="product-item">
+                    <img src="images/pearl_necklace.jpg" alt="pearl_necklace">
+                    <h3>Pearl Necklace</h3>
+                    <p>description:<br>Coloured pearl necklace comes in different colors(white, red and white)</p>
+                    <p>KSH.100.00</p>
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="images/smiley_lip _balm.jpg" alt="Product 2">
+                    <h3>Smiley Lip balm</h3>
+                    <p>description:<br>Assorted lip balm come in different flavours(grape, strawberry, orange and banana).</p>
+                    <p>KSH.50.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/lip_gloss.jpg" alt="Product 2">
+                    <h3>Clear Lip gloss</h3>
+                    <p>description:<br>Clear lip gloss for shiny and moist lips</p>
+                    <p>KSH.30.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/eye_liner.jpg" alt="Product 2">
+                    <h3>Eye/Lip Liner</h3>
+                    <p>description:<br>Black and brown eye liners</p>
+                    <p>KSH.30.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/henna.jpg" alt="bracelets">
+                    <h3>Henna</h3>
+                    <P>description:<br>Brown and dark brown henna for beutiful nails. Guaranted to last for uptp 3 months.</P>
+                    <p>KSH.50.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/black_hairband.jpg" alt="Product 2">
+                    <h3>Plain color hairband</h3>
+                    <p>description:<br>Beautiful black hairbands</p>
+                    <p>KSH.20.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/pearl_hairband.jpg" alt="Product 2">
+                    <h3>Pearl hairband</h3>
+                    <p>description: Pearl hairbands all in different colors.</p>
+                    <p>KSH. 50.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/rings.jpg" alt="Product 2">
+                    <h3>Rings</h3>
+                    <p>description:<br>Metallic rings in different sizes ranging from size 17 - 21.</p>
+                    <p>KSH.80.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <!-- More products... -->
+                
+                <div class="product-item">
+                    <img src="images/metal_earings_dots.jpg" alt="pearl_necklace">
+                    <h3>Metallic earings dots</h3>
+                    <p>description:<br>small metallic earings in different colors.</p>
+                    <p>KSH.20.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/plastic_earing_dots.jpg" alt="Product 2">
+                    <h3>Plastic earing dots</h3>
+                    <p>description:<br>Come in different colors and is good for everyone because it doest course ear reaction.</p>
+                    <p>KSH.20.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/silver_earings.jpg" alt="Product 2">
+                    <h3>Silver earings</h3>
+                    <p>description:<br>Shiny silver earings</p>
+                    <p>KSH.50.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/golden_earings.jpg" alt="Product 2">
+                    <h3>Gold earings</h3>
+                    <p>description:<br>Pearl hairbands all in different colors.</p>
+                    <p>KSH. 50.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/large_golden_earings.jpg" alt="Product 2">
+                    <h3>Large golden earings</h3>
+                    <p>description:<br>Large golden earings in different shapes.</p>
+                    <p>KSH. 50.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/wooden_earings.jpg" alt="wooden">
+                    <h3>Wooden earings</h3>
+                    <p>description:<br>Woodem earings in different shapes and colors.</p>
+                    <p>KSH. 50.00</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 (Rahii Enterprise). All rights reserved.</p>
+    </footer>
+</body>
+</html>

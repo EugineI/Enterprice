@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahii Enterprise</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Rahii Enterprise</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="review.html">Reviews</a></li>
+                <li><a href="contacts.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="reviews-display">
+            <h2>What Our Customers Say</h2>
+            <div class="review">
+                <h3>John</h3>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>"Excellent service and quality products. Highly recommend Rahii Enterprise!"</p>
+            </div>
+            <div class="review">
+                <h3>Dennis</h3>
+                <p>⭐⭐⭐⭐</p>
+                <p>"Great experience."</p>
+            </div>
+        </section>
+
+        <section id="review-form">
+            <h2>Leave a Review</h2>
+            <form>
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="rating">Rating:</label><br>
+                <select id="rating" name="rating" required>
+                    <option value="5">⭐⭐⭐⭐⭐</option>
+                    <option value="4">⭐⭐⭐⭐</option>
+                    <option value="3">⭐⭐⭐</option>
+                    <option value="2">⭐⭐</option>
+                    <option value="1">⭐</option>
+                </select><br><br>
+
+                <label for="comments">Your Comments:</label><br>
+                <textarea id="comments" name="comments" rows="5" required></textarea><br><br>
+
+                <button type="submit">Submit Review</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 (Rahii Enterprise). All rights reserved.</p>
+    </footer>
+</body>
+</html>
